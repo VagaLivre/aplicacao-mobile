@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTccVagalivre.Pages.Imenu"
+       Title="Sistema de Busca estacionamento"
+             
+             
+             >
+
+    <ScrollView>
+        <StackLayout Spacing="10">
+            <Image x:Name="photoImage"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+
+            </Image>
+            <Label Text="Bem Vindo"
+                   Font="20"
+                   FontAttributes="bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                    />
+
+
+
+
+            <Label   x:Name="usernameLabel"
+                 Font="30"
+                 FontAttributes="bold"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"  >
+            </Label>
+            <Entry x:Name="cidadeentry"
+                       Placeholder="Entre com nome da cidade"
+                       Keyboard="Email"    
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand" >
+            </Entry>
+
+            <Entry x:Name="ufentry"
+                       Placeholder="Entre com nome do estado"
+                       Keyboard="Email"    
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand" >
+            </Entry>
+
+            <ActivityIndicator x:Name="WaitActivityIndicator"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center"
+        
+        ></ActivityIndicator>
+            <Button x:Name="buscarestacionamento"
+                    Text="Buscar Estacionamentos"
+                    BackgroundColor="Yellow"
+                    TextColor="black"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Center"></Button>
+
+        </StackLayout>
+        
+        
+
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoMaps"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="AppTccVagalivre.Pages.ConsultaMapa"
+             Title="Consulta Localização">
+
+    <maps:Map x:Name="Mapa" MapType="Street" 
+              VerticalOptions="FillAndExpand" 
+              IsShowingUser="true">
+
+    </maps:Map>
+
+</ContentPage>
